@@ -1,0 +1,8 @@
+{
+  "name": "data-analyst",
+  "version": "1.0.0",
+  "description": "本地数据分析子代理：Python 计算引擎 + Excel 读写 + 分级 Power BI 可行性。读数据 → 生成可重跑脚本 → 产出清洗后数据与图表；缺库先报后装，不画饼。",
+  "author": {
+    "name": "Zarrc"
+  }
+}

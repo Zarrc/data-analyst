@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "data-analyst",
+  "version": "1.0.0",
+  "description": "本地数据分析子代理 —— Python 计算引擎 + Excel 读写 + 分级 Power BI 可行性",
+  "owner": {
+    "name": "Zarrc"
+  },
+  "plugins": [
+    {
+      "name": "data-analyst",
+      "source": "./plugins/data-analyst",
+      "description": "一个只做本地数据计算的子代理：读 Excel/CSV、生成并可重跑 Python 脚本、产出清洗后数据与图表，按分级可行性操作 Excel / Power BI。含 data-stack 技能（可行性速查：Power BI 四级、Excel 两条路、pandas 3.0 断代坑）。",
+      "category": "development"
+    }
+  ]
+}

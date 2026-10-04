@@ -1,0 +1,13 @@
+# 分析数据与产物：不进仓库（可能含敏感 / 私有数据）
+data/
+output/
+
+# 工作脚本：可能硬编码私有路径 / 数据字段，不进仓库
+# （对外发布的通用工具放 examples/）
+scripts/
+
+# Python 环境与缓存
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
