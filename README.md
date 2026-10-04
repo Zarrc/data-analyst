@@ -19,7 +19,7 @@
 作为 Claude Code 插件：
 
 ```bash
-claude plugin marketplace add <你的用户名>/data-analyst
+claude plugin marketplace add Zarrc/data-analyst
 claude plugin install data-analyst@data-analyst
 ```
 
